@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven
+Built-By: Crist
+Build-Jdk: 13.0.1
+Implementation-Title: Base Project - UI content
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.adobe.base.project
+Content-Package-Roots: /conf/base,/content/base,/content/dam/base
+Content-Package-Description: UI content package for Base Project
+Content-Package-Id: base:aem-base-project.ui.content:0.0.1-SNAPSHOT
+Content-Package-Type: content
+
