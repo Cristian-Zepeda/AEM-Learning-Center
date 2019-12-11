@@ -4,7 +4,7 @@
 <comment>Base Project - UI content</comment>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="acHandling">merge_preserve</entry>
-<entry key="created">2019-12-10T10:03:35.414-06:00</entry>
+<entry key="created">2019-12-10T14:48:51.294-06:00</entry>
 <entry key="groupId">com.adobe.base.project</entry>
 <entry key="description">UI content package for Base Project</entry>
 <entry key="version">0.0.1-SNAPSHOT</entry>
