@@ -4,7 +4,7 @@
 <comment>Base Project - UI apps</comment>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="createdBy">Crist</entry>
-<entry key="created">2019-12-10T10:03:02.361-06:00</entry>
+<entry key="created">2019-12-10T14:48:37.131-06:00</entry>
 <entry key="groupId">com.adobe.base.project</entry>
 <entry key="name">aem-base-project.ui.apps</entry>
 <entry key="description">UI apps package for Base Project</entry>
