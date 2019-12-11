@@ -1,9 +1,12 @@
 com\adobe\aem\base\project\core\servlets\TestParameterServlet.class
 com\adobe\aem\base\project\core\schedulers\SimpleScheduledTask.class
+com\adobe\aem\base\project\core\impl\SimpleOSGIImpl.class
 com\adobe\aem\base\project\core\schedulers\SimpleScheduledTask$Config.class
 com\adobe\aem\base\project\core\package-info.class
 com\adobe\aem\base\project\core\models\HelloWorldModel.class
 com\adobe\aem\base\project\core\servlets\SimpleServlet.class
 com\adobe\aem\base\project\core\servlets\TestSlingServlet.class
+com\adobe\aem\base\project\core\SimpleOSGI.class
 com\adobe\aem\base\project\core\filters\LoggingFilter.class
 com\adobe\aem\base\project\core\listeners\SimpleResourceListener.class
+com\adobe\aem\base\project\core\servlets\TestSimpleOSGI.class

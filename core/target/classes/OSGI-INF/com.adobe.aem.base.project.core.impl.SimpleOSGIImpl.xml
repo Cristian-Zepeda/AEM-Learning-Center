@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0" name="com.adobe.aem.base.project.core.impl.SimpleOSGIImpl">
+        
+    <service servicefactory="false">
+                
+        <provide interface="com.adobe.aem.base.project.core.SimpleOSGI"/>
+            
+    </service>
+        
+    <implementation class="com.adobe.aem.base.project.core.impl.SimpleOSGIImpl"/>
+    
+</scr:component>
