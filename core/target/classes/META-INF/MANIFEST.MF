@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1576010909581
+Bnd-LastModified: 1576249738972
 Build-Jdk: 13.0.1
 Built-By: Crist
 Bundle-Description: Core bundle for Base Project
@@ -27,14 +27,21 @@ Import-Package: javax.annotation;version="0.0.0",com.adobe.aem.base.proj
  fic;version="[1.1,2)",org.apache.sling.settings;version="[1.3,2)",org.o
  sgi.service.event;version="[1.3,2)",org.slf4j;version="[1.7,2)",javax.i
  nject;version="0.0.0"
+Originally-Created-By: Apache Maven Bundle Plugin
 Provide-Capability: osgi.service;objectClass:List<String>="java.lang.Run
  nable",osgi.service;objectClass:List<String>="javax.servlet.Filter",osg
  i.service;objectClass:List<String>="javax.servlet.Servlet",osgi.service
- ;objectClass:List<String>="org.osgi.service.event.EventHandler"
-Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compone
- nt)(version>=1.3.0)(!(version>=2.0.0)))",osgi.service;filter:="(objectC
- lass=com.adobe.aem.base.project.core.SimpleOSGI)";effective:=active,osg
- i.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+ ;objectClass:List<String>="org.osgi.service.event.EventHandler",osgi.se
+ rvice;objectClass:List<String>="javax.servlet.Filter",osgi.service;obje
+ ctClass:List<String>="javax.servlet.Servlet",osgi.service;objectClass:L
+ ist<String>="org.osgi.service.event.EventHandler",osgi.service;objectCl
+ ass:List<String>="javax.servlet.Filter",osgi.service;objectClass:List<S
+ tring>="javax.servlet.Servlet",osgi.service;objectClass:List<String>="o
+ rg.osgi.service.event.EventHandler"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))",o
+ sgi.extender;filter:="(&(osgi.extender=osgi.component)(version>=1.3.0)(
+ !(version>=2.0.0)))",osgi.service;filter:="(objectClass=com.adobe.aem.b
+ ase.project.core.SimpleOSGI)";effective:=active
 Service-Component: OSGI-INF/com.adobe.aem.base.project.core.servlets.Tes
  tSlingServlet.xml,OSGI-INF/com.adobe.aem.base.project.core.filters.Logg
  ingFilter.xml,OSGI-INF/com.adobe.aem.base.project.core.listeners.Simple
